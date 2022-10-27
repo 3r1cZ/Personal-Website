@@ -1,0 +1,70 @@
+
+/* Portfolio button */
+.portfolio-button {
+    background-color: blue;
+    color: white;
+    
+    /* Button text */
+    font-weight: bold;
+    font-size: 15px;
+    
+    /* Button shape */
+    border: none;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    cursor: pointer;
+    transition: box-shadow 0.2s; /* time for shadow to occur */
+    
+    /* For 3D click effect */
+    margin-top: 0;
+    margin-bottom: 5px;
+
+}
+.portfolio-button:hover {
+    box-shadow: 6px 6px 20px rgba(0,0,0, 0.2);
+}
+.portfolio-button:active {
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* Header Buttons */
+.header-button {
+    background-color: white;
+    color: black;
+
+    /* Button text */
+    font-weight: bold;
+    font-size: 20px;
+
+    /* Button shape */
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+.header-button:hover {
+    color: red;
+}
+.header-button:active {
+    opacity: 0.7;
+}
+
+/* Intro Text */
+.page-title {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* underline */
+.underlining:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
