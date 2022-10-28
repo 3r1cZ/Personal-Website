@@ -3,7 +3,19 @@
     background-color: white;
 }
 
+.empty-space {
+    display: inline-block;
+    width: 1300px;
+}
+
+.change-location {
+    display: inline-block;
+}
+
 /* Header Buttons */
+.header-button-container {
+    display: inline-block;
+}
 .header-button {
     background-color: white;
     color: black;
@@ -22,13 +34,14 @@
     color: red;
 }
 .header-button:active {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 
 /* Title Container */
 .page-title {
     background-color: rgb(87, 242, 87);
+    height: 400px;
 }
 
 /* Title Text */
@@ -37,8 +50,13 @@
     font-weight: 600;
     font-size: 60px;
     text-align: center;
+    padding-top: 50px;
+    margin-top: 0;
 }
 
+.intro-button-container {
+    display: inline-block;
+}
 .intro-button {
     background-color: blue;
     color: white;
@@ -47,75 +65,84 @@
     font-size: 15px;
     
     /* Button shape */
+    position: relative;
     border: none;
     border-radius: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 20px 15px 20px;
+
+    -webkit-box-shadow: 0px 6px 0px blue;
+    -moz-box-shadow: 0px 6px 0px blue;
+    box-shadow: 0px 6px 0px blue;
 
     cursor: pointer;
-    transition: box-shadow 0.2s; /* time for shadow to occur */
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s; /* time for shadow to occur */
     margin-left: 600px;
-
-    /* For 3D click effect */
-    margin-top: 0;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
-.intro-button:hover {
-    box-shadow: 6px 6px 20px rgba(0,0,0, 0.2);
-}
+
 .intro-button:active {
     opacity: 0.5;
-    margin-top: 5px;
-    margin-bottom: 45px;
+    -webkit-box-shadow: 0px 2px 0px blue;
+    -moz-box-shadow: 0px 2px 0px blue;
+    box-shadow: 0px 2px 0px blue;
+    position: relative;
+    top: 4px;
 }
 
 /* Portfolio button */
+.portfolio-button-container {
+    display: inline-block;
+}
+
 .portfolio-button {
     background-color: blue;
     color: white;
-    
     /* Button text */
     font-weight: bold;
     font-size: 15px;
     
     /* Button shape */
+    position: relative;
     border: none;
     border-radius: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 20px 15px 20px;
+
+    -webkit-box-shadow: 0px 6px 0px blue;
+    -moz-box-shadow: 0px 6px 0px blue;
+    box-shadow: 0px 6px 0px blue;
 
     cursor: pointer;
-    transition: box-shadow 0.2s; /* time for shadow to occur */
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s; /* time for shadow to occur */
     margin-left: 50px;
-
-    /* For 3D click effect */
-    margin-top: 0;
+    margin-top: 100px;
     margin-bottom: 50px;
-}
-.portfolio-button:hover {
-    box-shadow: 6px 6px 20px rgba(0,0,0, 0.2);
 }
 .portfolio-button:active {
     opacity: 0.5;
-    margin-top: 5px;
-    margin-bottom: 45px;
+    -webkit-box-shadow: 0px 2px 0px blue;
+    -moz-box-shadow: 0px 2px 0px blue;
+    box-shadow: 0px 2px 0px blue;
+    position: relative;
+    top: 4px;
 }
 
 
 /* Introduction Container */
 .page-intro {
     background-color: white;
+    height: 400px;
 }
 
 /* Profile Pic */
 .pfp {
     width: 300px;
     float: left;
-    margin: 30px 30px 0 375px;
+    margin: 30px 30px 0px 375px;
 }
 
 /* Introduction Text */
@@ -124,9 +151,16 @@
     width: 500px;
     display: inline-block;
     margin-top: 150px;
+    margin-bottom: 160px;
 }
 
 
+
+/* Footer Page */
+.page-footer {
+    background-color: black;
+    height: 100px;
+}
 
 /* underline */
 .underlining:hover {
