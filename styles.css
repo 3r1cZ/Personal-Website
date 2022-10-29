@@ -5,7 +5,7 @@
 
 .empty-space {
     display: inline-block;
-    width: 1300px;
+    width: 82%;
 }
 
 .change-location {
@@ -13,9 +13,6 @@
 }
 
 /* Header Buttons */
-.header-button-container {
-    display: inline-block;
-}
 .header-button {
     background-color: white;
     color: black;
@@ -26,7 +23,6 @@
 
     /* Button shape */
     border: none;
-    border-radius: 10px;
 
     cursor: pointer;
 }
@@ -50,12 +46,13 @@
     font-weight: 600;
     font-size: 60px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5%;
     margin-top: 0;
 }
 
 .intro-button-container {
     display: inline-block;
+    width: 50%;
 }
 .intro-button {
     background-color: blue;
@@ -78,7 +75,7 @@
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; /* time for shadow to occur */
-    margin-left: 600px;
+    margin-left: 80%;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -95,6 +92,7 @@
 /* Portfolio button */
 .portfolio-button-container {
     display: inline-block;
+    width: 45%;
 }
 
 .portfolio-button {
@@ -118,7 +116,7 @@
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; /* time for shadow to occur */
-    margin-left: 50px;
+    margin-left: 0;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -140,17 +138,21 @@
 
 /* Profile Pic */
 .pfp {
-    width: 300px;
+    width: 20%;
     float: left;
-    margin: 30px 30px 0px 375px;
+    margin: 30px 30px 0px 15%;
+}
+
+.intro-text-container {
+    width: 40%;
+    display: inline-block;
 }
 
 /* Introduction Text */
 .intro-text {
     font-size: 20px;
-    width: 500px;
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 20%;
     margin-bottom: 160px;
 }
 
@@ -160,6 +162,12 @@
 .page-footer {
     background-color: black;
     height: 100px;
+}
+
+.logo-github {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 30%;
 }
 
 /* underline */
