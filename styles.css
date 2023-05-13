@@ -140,6 +140,7 @@ html{
 .page-intro {
     background-color:cornsilk;
     height: 400px;
+    transition: width 0.5s, height 0.5s;
 }
 
 /* Profile Pic */
@@ -157,6 +158,7 @@ html{
 /* Introduction Text */
 .intro-text {
     font-size: 20px;
+    font-family: Roboto;
     display: inline-block;
     margin-top: 20%;
     margin-bottom: 160px;
@@ -180,4 +182,26 @@ html{
 .underlining:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.expanding-button{
+    display: inline-block;
+    background-color: cornsilk;
+    cursor: pointer;
+    margin-left: 40%;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.expansion-container{
+    display: none;
+    height: 30px;
+    width: 400px;
+    margin-left: 40%;
+}
+
+.expanding-text{
+    display: none;
+    font-family: Roboto;
+    font-size: 20px;
 }
