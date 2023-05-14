@@ -28,5 +28,6 @@ function checkReload(){
     }
     else{
         window.location.href = "index.html";
+        return;
     }
 }
