@@ -19,3 +19,14 @@ function smoothTransition(){
         open = false;
     }
 }
+
+function checkReload(){
+    
+    if(document.cookie.indexOf('mycookie')==-1) {
+        // The cookie doesn't exist. Create it now
+        document.cookie = 'mycookie=1';
+    }
+    else{
+        window.location.href = "index.html";
+    }
+}
