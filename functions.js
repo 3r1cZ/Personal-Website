@@ -27,7 +27,7 @@ function checkReload(){
         document.cookie = 'mycookie=1';
     }
     else{
-        window.location.href = "index.html";
+        console.log('this works');
         return;
     }
 }
