@@ -178,6 +178,11 @@ html{
     margin-left: 30%;
 }
 
+.logo-linkedin {
+    width: 100px;
+    margin-bottom: 5px;
+}
+
 /* underline */
 .underlining:hover {
     text-decoration: underline;
