@@ -7,7 +7,7 @@ function smoothTransition(){
     if(open == false){
         container.style.display = "block";
         text.style.display = "block";
-        mainPage.style.height = "500px";
+        mainPage.style.height = "470px";
         button.style.background = "antiquewhite";
         open = true;
     }
