@@ -1,5 +1,5 @@
 .intro-portfolio {
-    height: 830px;
+    height: 1250px;
 }
 
 .main-container{
@@ -22,6 +22,15 @@
 
 .discord-container{
     background-color: bisque;
+}
+
+.chatbot-container{
+    background-color: bisque;
+}
+
+.coming-soon-container{
+    padding-top: 20%;
+    text-align: center;
 }
 
 .logo-battleship {
