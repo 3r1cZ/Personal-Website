@@ -1,5 +1,5 @@
 .intro-portfolio {
-    height: 1250px;
+    height: 1271px;
 }
 
 .main-container{
@@ -9,11 +9,11 @@
 }
 
 .project-title{
-    margin-left: 40%;
+    text-align: center;
 }
 
-.intro-text{
-    margin-left: 5%;
+.paragraph-text{
+    line-height: 1.5;
 }
 
 .battleship-container{
@@ -35,10 +35,24 @@
 
 .logo-battleship {
     width: 50%;
-    margin: 20px 30px 0px 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
 }
 
 .logo-discord{
     width: 40%;
-    margin-left: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.logo-chatbot{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
