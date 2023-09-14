@@ -1,5 +1,5 @@
 .intro-portfolio {
-    height: 1286px;
+    height: 1290px;
 }
 
 .main-container{
@@ -53,6 +53,7 @@
 
 .paragraph-text{
     line-height: 1.5;
+    margin-left: 5px;
 }
 
 .battleship-container{
