@@ -12,11 +12,6 @@ html{
     background-color: white;
 }
 
-.empty-space {
-    display: inline-block;
-    width: 88%;
-}
-
 .change-location {
     display: inline-block;
 }
@@ -33,6 +28,7 @@ html{
     /* Button shape */
     border: none;
 
+    /* Button location */
     padding-top: 10px;
     padding-bottom: 5px;
 
@@ -64,6 +60,7 @@ html{
     color:aquamarine;
 }
 
+/* Introduction button */
 .intro-button-container {
     display: inline-block;
     width: 50%;
@@ -93,7 +90,6 @@ html{
     margin-top: 100px;
     margin-bottom: 50px;
 }
-
 .intro-button:active {
     opacity: 0.5;
     -webkit-box-shadow: 0px 2px 0px blue;
@@ -143,8 +139,7 @@ html{
     top: 4px;
 }
 
-
-/* Introduction Container */
+/* Introduction Section Container */
 .page-intro {
     background-color:cornsilk;
     height: 400px;
@@ -173,7 +168,6 @@ html{
 }
 
 
-
 /* Footer Page */
 .page-footer {
     background-color: black;
@@ -197,6 +191,7 @@ html{
     cursor: pointer;
 }
 
+/* Expanding Button Container */
 .expanding-button{
     display: inline-block;
     background-color: cornsilk;
@@ -207,6 +202,7 @@ html{
     border-radius: 5px;
 }
 
+/* Container to hold expanding text */
 .expansion-container{
     display: none;
     height: 30px;

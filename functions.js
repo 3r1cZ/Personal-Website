@@ -1,4 +1,5 @@
 let open = false;
+// Transition for expanding text
 function smoothTransition(){
     const container = document.querySelector('.expansion-container');
     const text = document.querySelector(".expanding-text");

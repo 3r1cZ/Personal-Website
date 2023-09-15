@@ -1,3 +1,4 @@
+/* Height of portfolio page (excluding header and footer) */
 .intro-portfolio {
     height: 1290px;
 }
@@ -8,6 +9,7 @@
     font-family: Roboto;
 }
 
+/* Portfolio Button Container */
 .portfolio-button-2-container {
     display: inline-block;
     width: 56%;
@@ -37,7 +39,6 @@
     margin-top: 100px;
     margin-bottom: 50px;
 }
-
 .portfolio-button-2:active {
     opacity: 0.5;
     -webkit-box-shadow: 0px 2px 0px blue;
@@ -47,10 +48,12 @@
     top: 4px;
 }
 
+/* Title of each project displayed */
 .project-title{
     text-align: center;
 }
 
+/* Information for each project */
 .paragraph-text{
     line-height: 1.5;
     margin-left: 5px;
