@@ -1,6 +1,6 @@
 /* Height of portfolio page (excluding header and footer) */
 .intro-portfolio {
-    height: 1290px;
+    height: 1913px;
 }
 
 .main-container{
@@ -59,21 +59,16 @@
     margin-left: 5px;
 }
 
-.battleship-container{
+.project-container{
     background-color:antiquewhite;
-}
-
-.discord-container{
-    background-color: bisque;
-}
-
-.chatbot-container{
-    background-color: bisque;
+    border-style: solid;
+    height: 500px;
 }
 
 .coming-soon-container{
     padding-top: 20%;
     text-align: center;
+    border-style: solid;
 }
 
 .logo-battleship {
@@ -81,7 +76,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 23px;
+    padding-top: 45px;
 }
 
 .logo-discord{
@@ -89,7 +84,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .logo-chatbot{
@@ -97,6 +93,25 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.logo-puzzle{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 25px;
+}
+
+.logo-app-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.logo-app{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
