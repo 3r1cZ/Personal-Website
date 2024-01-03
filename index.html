@@ -1,77 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Homepage - Eric Zhou
-        </title>
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-    </head>
+  <head>
+    <title>Homepage - Eric Zhou</title>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-    <body>
-        <div class="page-header">
-            <div style="width: 100px; display: inline-block;">
-                <form class="change-location" action="index.html">
-                    <button class="header-button">
-                        Home
-                    </button>
-                </form>
-            </div>
-            <div style="float: right;">
-                <form class="change-location" action="portfolio.html">
-                    <button class="header-button">
-                        Portfolio
-                    </button>
-                </form>
-            </div>
-        </div>
-        <div class="page-title">
-            <h1 class="title-text">
-                An Introduction to Eric Zhou
-            </h1>
-            <div class="intro-button-container">
-                <a href="#intro-section">
-                    <button class="intro-button">
-                        Introduction
-                    </button>
-                </a>
-            </div>
-            <div class="portfolio-button-container">
-                <form class="change-location" action="portfolio.html">
-                    <button class= "portfolio-button">
-                        Portfolio
-                    </button>
-                </form>
-            </div>
-        </div>
-        <div class="page-intro" id="intro-section">
-            <div>
-                <img class="pfp" src="Images/Profile.JPG">
-            </div>
-            <div class="intro-text-container">
-                <p class = "intro-text">
-                    Hi! My name is Eric Zhou and I am a computer science student at the University of Ottawa in Ottawa, Canada.
-                    I'm always looking to learn new things and give it my all in everything I do.
-                </p>
-            </div>
-            <div>
-                <button class="expanding-button" onclick="smoothTransition()">What programming languages do I know?</button>
-            </div>
-            <div class="expansion-container">
-                <p class="expanding-text">I am able to code in Java, Python, HTML, CSS, JavaScript, and C#!</p>
-            </div>
-        </div>
-        <div class="page-footer">
-            <a href="https://github.com/3r1cZ" target="_blank">
-                <img class="logo-github" src="Images/GitHub_logo.png">
-            </a>
-            <a href="https://www.linkedin.com/in/eric-zhou-79ba001b4/" target="_blank">
-                <img class="logo-linkedin" src="Images/Linkedin-logo.png">
-            </a>
-        </div>
-        <script src="functions.js"></script>
-    </body>
+  <body onload="openModal()">
+    <div class="page-header">
+      <div style="width: 100px; display: inline-block">
+        <form class="change-location" action="index.html">
+          <button class="header-button">Home</button>
+        </form>
+      </div>
+      <div style="float: right">
+        <form class="change-location" action="portfolio.html">
+          <button class="header-button">Portfolio</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>
+          Hi! I've made a new website on https://3r1cz.github.io/ ! Please note
+          that this website will be deleted soon.
+        </p>
+      </div>
+    </div>
+    <div class="page-title">
+      <h1 class="title-text">An Introduction to Eric Zhou</h1>
+      <div class="intro-button-container">
+        <a href="#intro-section">
+          <button class="intro-button">Introduction</button>
+        </a>
+      </div>
+      <div class="portfolio-button-container">
+        <form class="change-location" action="portfolio.html">
+          <button class="portfolio-button">Portfolio</button>
+        </form>
+      </div>
+    </div>
+    <div class="page-intro" id="intro-section">
+      <div>
+        <img class="pfp" src="Images/Profile.JPG" />
+      </div>
+      <div class="intro-text-container">
+        <p class="intro-text">
+          Hi! My name is Eric Zhou and I am a computer science student at the
+          University of Ottawa in Ottawa, Canada. I'm always looking to learn
+          new things and give it my all in everything I do.
+        </p>
+      </div>
+      <div>
+        <button class="expanding-button" onclick="smoothTransition()">
+          What programming languages do I know?
+        </button>
+      </div>
+      <div class="expansion-container">
+        <p class="expanding-text">
+          I am able to code in Java, Python, HTML, CSS, JavaScript, and C#!
+        </p>
+      </div>
+    </div>
+    <div class="page-footer">
+      <a href="https://github.com/3r1cZ" target="_blank">
+        <img class="logo-github" src="Images/GitHub_logo.png" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/eric-zhou-79ba001b4/"
+        target="_blank"
+      >
+        <img class="logo-linkedin" src="Images/Linkedin-logo.png" />
+      </a>
+    </div>
+    <script src="functions.js"></script>
+  </body>
 </html>
